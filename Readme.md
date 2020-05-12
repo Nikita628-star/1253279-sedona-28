@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Karasyok Ask](https://up.htmlacademy.ru/htmlcss/28/user/1253279).
-* Наставник: `Неизвестно`.
+* Наставник: [Дмитрий Иовлев](https://htmlacademy.ru/profile/id200490).
 
 ---
 
