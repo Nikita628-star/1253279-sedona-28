@@ -84,8 +84,8 @@
         <b>Найдено: 3</b>
         <span>Сортировка</span>
         <a class="sort-active" href="#">По цене</a>
-        <a href="#">По типу</a>
-        <a href="#">По рейтингу</a>
+        <a class="sort" href="#">По типу</a>
+        <a class="sort" href="#">По рейтингу</a>
         <div class="arrows">
           <a class="index-up" href="#"></a>
           <a class="index-down" href="#"></a>
@@ -94,38 +94,53 @@
       <div class="search-result clearfix">
         <img class="hotel-pic" src="img/Layer 21.jpg" width="135" height="90" alt="amara=resort&amp;spa">
         <a class="hotel-name" href="#"><h2>Amara Resort &amp; SPA</h2></a>
-        <img class="stars" src="img/4-stars.png" alt="4-stars" width="89" height="17">
+        <div class="stars-and-rating">
+          <img class="stars" src="img/4-stars.png" alt="4-stars" width="89" height="17">
+          <span class="rating">Рейтинг: 8,5</span>
+        </div>
         <p class="middle-line">
           <span>Гостиница</span>
           <span>От 4000 р.</span>
         </p>
-        <a class="more" href="#">Подробнее</a>
-        <a class="book" href="#">Забронировать</a>
-        <span class="rating">Рейтинг: 8,5</span>
+        <section class="choice">
+          <a class="more" href="#">Подробнее</a>
+          <a class="book" href="#">Забронировать</a>
+          </section>
       </div>
       <div class="search-result clearfix">
         <img class="hotel-pic" src="img/Layer 89 copy.jpg" width="135" height="90" alt="desert-quail-inn">
         <a class="hotel-name" href="#"><h2>Desert Quail Inn</h2></a>
-        <img class="star stars" src="img/3-stars.png" alt="3-stars" width="42" height="17">
+        <div class="stars-and-rating">
+          <img class="star stars" src="img/3-stars.png" alt="3-stars" width="42" height="17">
+          <span class="rating">Рейтинг: 8,9</span>
+        </div>
         <p class="middle-line">
           <span>Мотель</span>
           <span>От 3000 р.</span>
         </p>
-        <a class="more" href="#">Подробнее</a>
-        <a class="book" href="#">Забронировать</a>
-        <span class="rating">Рейтинг: 8,9</span>
+        <section class="choice">
+          <a class="more" href="#">Подробнее</a>
+          <a class="book" href="#">Забронировать</a>
+
+        </section>
       </div>
       <div class="search-result clearfix">
         <img class="hotel-pic" src="img/Rectangle.jpg" width="135" height="90" alt="villas-at-poco-diablo">
         <a class="hotel-name" href="#"><h2>Villas at Poco Diablo</h2></a>
+        <div class="stars-and-rating">
         <img class="star-two stars" src="img/2-stars.png" alt="2-stars" width="65" height="17">
+        <span class="rating">Рейтинг: 9,2</span>
+        </div>
         <p class="middle-line">
           <span>Апартаменты</span>
           <span>От 2000 р.</span>
         </p>
-        <a class="more" href="#">Подробнее</a>
-        <a class="book" href="#">Забронировать</a>
-        <span class="rating">Рейтинг: 9,2</span>
+        <section class="choice">
+          <a class="more" href="#">Подробнее</a>
+          <a class="book" href="#">Забронировать</a>
+        </section>
+
+
       </div>
     </main>
     <footer class="main-footer">
@@ -138,11 +153,9 @@
         </div>
         <div class="footer-copyright">
           <span>Website by</span>
-          <div class="html-academy-logo">
-            <a href="https://htmlacademy.ru/intensive/htmlcss">
-              <img src="img/logo-htmlacademy.svg" width="113" height="39" alt="html-academy">
-            </a>
-          </div>
+          <a href="https://htmlacademy.ru/intensive/htmlcss">
+            <div class="html-academy-logo"></div>
+          </a>
         </div>
       </div>
     </footer>
