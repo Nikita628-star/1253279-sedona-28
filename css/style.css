@@ -1,10 +1,11 @@
 body {
-    font-family: "PT Sans","Arial",sans-serif;
+    margin: 0;
     font-size: 14px;
-    color: #333;
     line-height: 21px;
-    text-transform: uppercase;
+    color: #333;
     background-color: #f2f2f2;
+    font-family: "PT Sans","Arial",sans-serif;
+    text-transform: uppercase;
 }
 
 fieldset {
@@ -13,11 +14,11 @@ fieldset {
 }
 
 legend {
+    padding: 0;
+    max-width: 100%;
     box-sizing: border-box;
     color: inherit;
     display: table;
-    max-width: 100%;
-    padding: 0;
     white-space: normal;
 }
 
@@ -37,10 +38,10 @@ img {
 }
 
 .main-header {
-    position: relative;
     min-width: 768px;
     min-height: 56px;
     padding: 0;
+    position: relative;
 }
 
 .container {
@@ -144,7 +145,8 @@ img {
     font-size: 21px;
     line-height: 26px;
     font-weight: 700;
-    margin-bottom: 32px;
+    margin-top: -15px;
+    margin-bottom: 46px;
 }
 
 .central-message-2 {
@@ -326,6 +328,7 @@ img {
 .advantage-description-2 b {
     display: inline-block;
     vertical-align: top;
+    font-size: 21px;
     width: 118px;
     line-height: 21px;
     text-align: center;
@@ -402,9 +405,15 @@ a.search {
     box-shadow: 0 0 20px #ccc;
 }
 
+@keyframes form-animation {
+  0% { transform: translateY(-400px);}
+  100% { transform: translateY(0px);}
+}
+
 .hotel-search-show {
   display: block;
-
+  animation-name: form-animation;
+  animation-duration: 2s;
 }
 
 .checkin {
@@ -585,19 +594,21 @@ a.search {
     color: #000;
     font-size: 21px;
     font-weight: 700;
-    line-height: 30px;
-    text-align: center;
+    line-height: 34px;
     text-decoration: none;
     display: inline-block;
     vertical-align: middle;
-    width: 33.3%;
+    width: 266px;
+    margin-top: -13px;
+    margin-right: 3px;
+    margin-left: 134px;
 }
 
 .footer-social {
     text-align: center;
     display: inline-block;
     vertical-align: middle;
-    width: 33.3%;
+    width: 397px;
 }
 
 .social-btn {
@@ -867,7 +878,7 @@ input[type=checkbox]+label:before {
 
 .range-controls {
     position: relative;
-    margin-bottom: 30px;
+    margin-bottom: 35px;
 }
 
 .range-controls .scale {
@@ -877,7 +888,7 @@ input[type=checkbox]+label:before {
 }
 
 .range-controls .bar {
-    width: 70%;
+    width: 85%;
     height: 2px;
     background-color: #fff;
 }
@@ -895,11 +906,11 @@ input[type=checkbox]+label:before {
     border-radius: 50%;
     box-shadow: 0 2px 1px 0 rgba(0,1,1,.2);
     cursor: pointer;
-    top: -9px;
+    top: -8px;
 }
 
 .range-toggle-max {
-    left: 70%;
+    left: 253px;
 }
 
 .show-hotels:hover {
@@ -908,21 +919,15 @@ input[type=checkbox]+label:before {
 }
 
 .show-hotels {
-    display: block;
-    box-sizing: border-box;
-    margin: 0 auto;
     width: 137px;
     height: 36px;
     background-color: transparent;
-    font-family: inherit;
     text-transform: uppercase;
     color: #fff;
-    font-size: inherit;
-    line-height: inherit;
-    outline: none;
     border: 2px solid #fff;
     border-radius: 2px;
     cursor: pointer;
+    margin-left: 85px;
 }
 
 button, [type="submit"] {
@@ -930,12 +935,9 @@ button, [type="submit"] {
 }
 
 button {
-    overflow: visible;
-}
-
-button {
     font: inherit;
     margin: 0;
+    overflow: visible;
 }
 
 .search-result-sort {
@@ -998,7 +1000,7 @@ button {
 
 .arrows {
     position: absolute;
-    top: 33px;
+    top: 37px;
     right: 6%;
     font-size: 0;
 }
