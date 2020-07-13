@@ -8,6 +8,7 @@ button.addEventListener("click", function (evt) {
   if (classes.length > 1) {
     popup.classList.remove("hotel-search-show");
   }
+
   else {
     popup.classList.add("hotel-search-show");
   }

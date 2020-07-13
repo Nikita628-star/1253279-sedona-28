@@ -1,0 +1,249 @@
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.main-navigation li:nth-child(2) {
+    margin-right: 9.09%;
+}
+
+.main-navigation li:nth-child(3) {
+    text-align: right;
+}
+
+.main-navigation li:last-child {
+    text-align: right;
+}
+
+.main-navigation-a:hover {
+    color: #81b3d3;
+}
+
+.main-navigation-a:active {
+    color: #c0c0c0;
+}
+
+.housing::before {
+    content: "";
+    position: absolute;
+    width: 75px;
+    height: 72px;
+    top: 4px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-image: url("../img/icon-one.svg");
+    background-repeat: no-repeat;
+}
+
+.food::before {
+    content: "";
+    position: absolute;
+    width: 74px;
+    height: 70px;
+    top: 4px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-image: url("../img/icon-three.svg");
+    background-repeat: no-repeat;
+}
+
+.souvenirs::before {
+    content: "";
+    position: absolute;
+    width: 64px;
+    height: 76px;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-image: url("../img/icon-two.svg");
+    background-repeat: no-repeat;
+}
+
+.calendar:hover {
+  opacity: 1;
+}
+
+.calendar:active {
+  background-image: url("../img/calendar.svg");
+}
+
+.hotel-search input:hover {
+  background-color: #ebebeb;
+}
+
+.hotel-search input:focus {
+  background-color: #fff;
+}
+
+.minus:hover {
+  background-color: black;
+}
+
+.minus:active {
+  background-color: #81b3d2;
+}
+
+.plus:hover {
+  background-image: url("../img/union.svg");
+}
+
+.plus:active {
+  background-image: url("../img/union-1.svg");
+}
+
+.btn:hover {
+  background-color: #669ec0;
+}
+
+.btn:active {
+    background-color: #5496bd;
+    color: #88b6d1;
+}
+
+.social-btn:hover {
+  background-color: #669ec0;
+}
+
+.twitter:active,
+.facebook:active,
+.youtube:active {
+  background-color: #5581a6;
+}
+
+.html-academy-logo:hover {
+    background-image: url("../img/html-academy-logo-hover.png");
+}
+
+.html-academy-logo:active {
+    background-image: url("../img/html-academy-logo-down.png");
+}
+
+input[type=checkbox]:checked+label:before {
+    content: "";
+    position: absolute;
+    width: 26px;
+    height: 23px;
+    background: url("../img/checkbox-on.png") no-repeat;
+    left: 0;
+}
+
+input[type=checkbox]+label:before {
+    content: "";
+    position: absolute;
+    width: 26px;
+    height: 24px;
+    background: url("../img/shape.svg") no-repeat;
+    left: 0;
+}
+
+.price-controls::after {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 22px;
+    background-color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.show-hotels:hover {
+  background-color: white;
+  color: black;
+}
+
+.search-result-sort a:active {
+  color: black;
+}
+
+.sort:hover {
+  color: #81b3d2;
+}
+
+.sort:active {
+  color: black;
+  border-bottom: 0px;
+}
+
+.arrows a.index-up:hover {
+  border: 8px solid black;
+  border-top: 0;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+
+.arrows a.index-up:active {
+    border: 8px solid #ccc;
+    border-top: 0;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+
+.arrows a.index-down:hover {
+  border: 8px solid black;
+  border-bottom: 0;
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+
+.arrows a.index-down:active {
+    border: 8px solid #81b3d2;
+    border-bottom: 0;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+
+h2:hover {
+  color: #81b3d2;
+}
+
+h2:active {
+  color: #c0c0c0;
+}
+
+.more:hover {
+  background-color: #669ec0;
+}
+
+.more:active {
+    background-color: #5496bd;
+    color: #88b6d1;
+}
+
+.book:hover {
+  background-color: #604e43;
+}
+
+.book:active {
+    background-color: #503e33;
+    color: #857871;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
