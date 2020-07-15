@@ -101,6 +101,7 @@ a.search{display:block;position:relative;box-sizing:border-box;z-index:1;margin:
 .people-number{font-size:0}
 .left-label{display:inline-block;vertical-align:baseline;width:113px;font-size:14px}
 .quantity{position:relative;display:inline-block;vertical-align:baseline;margin-bottom:54px}
+.visually-hidden{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;border:0;clip:rect(0 0 0 0)}
 .minus{position:absolute;width:12px;height:3px;background-color:var(--silver);top:18px;left:13px}
 .plus{position:absolute;width:11px;height:11px;background-image:url(../img/grey-union.png);background-repeat:no-repeat;right:14px;bottom:14px}
 .people-number input{width:114px;padding-left:52px}
